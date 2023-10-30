@@ -15,6 +15,11 @@
 		FC82DE302AEBE27F00A8F1BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC82DE2F2AEBE27F00A8F1BF /* ContentView.swift */; };
 		FC82DE322AEBE27F00A8F1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC82DE312AEBE27F00A8F1BF /* Assets.xcassets */; };
 		FC82DE352AEBE27F00A8F1BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC82DE342AEBE27F00A8F1BF /* Preview Assets.xcassets */; };
+		FCB38ADF2AEFD99C00662B3E /* Modelo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB38ADE2AEFD99C00662B3E /* Modelo1.swift */; };
+		FCB38AE12AEFD9D600662B3E /* Modelo1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB38AE02AEFD9D600662B3E /* Modelo1ViewModel.swift */; };
+		FCB38AE32AEFDEB900662B3E /* Modelo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB38AE22AEFDEB900662B3E /* Modelo2.swift */; };
+		FCB38AE52AEFDF2200662B3E /* Modelo2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB38AE42AEFDF2200662B3E /* Modelo2ViewModel.swift */; };
+		FCB38AE72AEFDFBC00662B3E /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB38AE62AEFDFBC00662B3E /* Home2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		FC82DE2F2AEBE27F00A8F1BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC82DE312AEBE27F00A8F1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC82DE342AEBE27F00A8F1BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCB38ADE2AEFD99C00662B3E /* Modelo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1.swift; sourceTree = "<group>"; };
+		FCB38AE02AEFD9D600662B3E /* Modelo1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1ViewModel.swift; sourceTree = "<group>"; };
+		FCB38AE22AEFDEB900662B3E /* Modelo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo2.swift; sourceTree = "<group>"; };
+		FCB38AE42AEFDF2200662B3E /* Modelo2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo2ViewModel.swift; sourceTree = "<group>"; };
+		FCB38AE62AEFDFBC00662B3E /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				FC7B684A2AEBE4C300B5B417 /* PostViewModel.swift */,
+				FCB38AE02AEFD9D600662B3E /* Modelo1ViewModel.swift */,
+				FCB38AE42AEFDF2200662B3E /* Modelo2ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -91,6 +103,7 @@
 			children = (
 				FC7B684C2AEBE94B00B5B417 /* Login.swift */,
 				FC7B684E2AEBE95900B5B417 /* Home.swift */,
+				FCB38AE62AEFDFBC00662B3E /* Home2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				FC7B68472AEBE39500B5B417 /* PostModel.swift */,
+				FCB38ADE2AEFD99C00662B3E /* Modelo1.swift */,
+				FCB38AE22AEFDEB900662B3E /* Modelo2.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,11 +189,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7B684B2AEBE4C300B5B417 /* PostViewModel.swift in Sources */,
+				FCB38AE52AEFDF2200662B3E /* Modelo2ViewModel.swift in Sources */,
 				FC7B684D2AEBE94B00B5B417 /* Login.swift in Sources */,
 				FC82DE302AEBE27F00A8F1BF /* ContentView.swift in Sources */,
 				FC7B68482AEBE39500B5B417 /* PostModel.swift in Sources */,
+				FCB38ADF2AEFD99C00662B3E /* Modelo1.swift in Sources */,
 				FC7B684F2AEBE95900B5B417 /* Home.swift in Sources */,
+				FCB38AE12AEFD9D600662B3E /* Modelo1ViewModel.swift in Sources */,
 				FC82DE2E2AEBE27F00A8F1BF /* JSONApp.swift in Sources */,
+				FCB38AE32AEFDEB900662B3E /* Modelo2.swift in Sources */,
+				FCB38AE72AEFDFBC00662B3E /* Home2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
